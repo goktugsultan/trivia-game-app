@@ -1,3 +1,11 @@
+ # Trivia Game App
+ Trivia Game App is a quiz project.
+ ## Used Technologies
+ - React Hooks
+ - Material-ui for style . [Material-UI](https://material-ui.com/)
+ - Lottie Animations for animations . [Lottie](https://lottiefiles.com/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
