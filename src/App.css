@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Start game */
+
+.start-game-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-game-menu {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-radius: 10px;
+  height: 50%;
+  background: linear-gradient(to left, #f09819, #edde5d);
+  box-shadow: 2px 0px 5px 10px rgb(54, 3, 31);
+
+}
+
+.start-game-header {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.start-game-actions {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* category menu */
+.category-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to left, #f09819, #edde5d);
+
+}
+
+/* question */
+
+.question-container {
+  background: linear-gradient(to left, #f09819, #edde5d);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 60%;
+  border-radius: 10px;
+  box-shadow: 2px 0px 5px 10px rgb(54, 3, 31);
+
+}
+
+.question-header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.question-counter {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.question-content {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  word-wrap: break-word;
+}
+
+.question-content p {
+  max-width: 635px;
+
+}
+
+.question-answer {
+  display: flex;
+  flex: 3;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.answer {
+  padding: 10px;
+  margin: auto;
+  width: 40%;
+  height: 20px;
+
+}
+
+.next-question {
+  padding-right: 10px;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* score */
+.score-menu {
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-radius: 10px;
+  height: 50%;
+  background: linear-gradient(to right, #ee9a24, #f33d3d);
+  justify-content: center;
+
+}
+
+.score-logo {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-text {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.score-again-button {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+
+
+}
