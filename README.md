@@ -1,5 +1,6 @@
  # Trivia Game App
  Trivia Game App is a quiz project.
+ - [Live Demo](https://trivia-game-app.netlify.app/)
  ## Used Technologies
  - React Hooks
  - Material-ui for style . [Material-UI](https://material-ui.com/)
